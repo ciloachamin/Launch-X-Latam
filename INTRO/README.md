@@ -23,4 +23,4 @@
 
 **_¡Vámonos hasta el espacio y más allá Explorers!_**
 
-[Volver &ldca;](/README.md "Regresar a página anterior")
+[Volver &ldca;](./ "Regresar a página anterior")
