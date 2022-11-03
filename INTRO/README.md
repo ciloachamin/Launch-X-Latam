@@ -23,4 +23,4 @@
 
 **_¡Vámonos hasta el espacio y más allá Explorers!_**
 
-[Volver &ldca;](/Launch-X-Latam/README.md "Regresar a página anterior")
+[Volver &ldca;](/README.md "Regresar a página anterior")
