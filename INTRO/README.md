@@ -17,7 +17,7 @@
   - [Toma de requerimientos](./Requerimientos/Requerimientos.pdf)
   - [Crea tu buyer persona](./BuyerPersona/BuyerPersona.pdf)
   - [Publico objetivo](./PublicoObjetivo/PublicoObjetivo.pdf)
-  - [Crea tu primer Wireframe UX](./4.-wireframe.md)
+  - [Crea tu primer Wireframe UX](./WireFrame%20UX/LandinpageDeAbogabot.pdf)
   - [Ahora el UI](./5.-ui.md)
 
 
