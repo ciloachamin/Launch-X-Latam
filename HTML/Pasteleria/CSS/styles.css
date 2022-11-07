@@ -6,6 +6,7 @@
 
 body{
     font-family: 'open sans';
+    background:  #f9f9f9;
 }
 
 .contenedor{
@@ -13,13 +14,6 @@ body{
     max-width: 1000px;
     margin: auto;
     overflow: hidden;
-}
-
-.titulo{
-    color: #642a73;
-    font-size: 30px;
-    text-align: center;
-    margin-bottom: 60px;
 }
 
 /* Headear */
@@ -42,7 +36,7 @@ header{
 nav{
     width: 100%;
     height: 80px;
-    background: #fff;
+    background:  #f9f9f9;
     border-bottom: 1px solid transparent;
     box-shadow:1px 1px 10px 0 rgba(0, 0, 0,.2);
     position: fixed;
@@ -80,7 +74,6 @@ nav{
 .hamburguer{
     width: 80px;
     height: 80px;
-    background: #9d6285;
     text-align: center;
     z-index: 100;
     cursor: pointer;
@@ -90,6 +83,7 @@ nav{
 .hamburguer > i{
     font-size: 25px;
     line-height: 80px;
+    color: rgb(26, 22, 22);
 }
 
 .enlaces-header>a:hover {
@@ -106,6 +100,84 @@ header .textos-header{
  flex-direction: column;
  text-align: center;
 }
+
+
+
+.titulo{
+    color:    #b97579; 
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 60px;
+    
+}
+
+
+
+.contenedor-articulo{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 60px;
+    justify-content: space-around;
+
+}
+
+
+.articulo{
+    width: 29%;
+    background: #fff;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    padding: 45px 30px 60px 30px;
+    transition: 0.5s;
+}
+.articulo:hover{
+    box-shadow: 0 4px 10px rgba(17, 29, 48,.26);
+}
+
+.articulo >i{
+    font-size: 30px;
+    color: #fff;
+    background: #1FDE82;
+    display:inline-block;
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    padding-top: 20px;
+    border-radius: 50%;
+    box-shadow: 0 8px 32px rgba(31, 222,130,.46);
+}
+.articulo>h3{
+    font-size: 24px;
+    margin-top: 30px;
+
+}
+
+.articulo>p{
+    font-weight: 100;
+    color: #5D6678;
+    margin-top: 15px;
+    padding-bottom: 20px;
+
+}
+
+.articulo>a{
+    font-weight: 400;
+    color: #5D6678;
+    text-decoration: none;
+
+}
+.articulo:hover{
+    color: #1FDE82;
+    transition: color .5s;
+
+}
+
+
+
+
+
+
+
 
 .textos-header h1{
     font-size:50px;
@@ -135,7 +207,7 @@ header .textos-header{
 
 }
 
-.image-about-us{
+.image-Sabores{
     width: 48%;
 
 }
@@ -163,4 +235,35 @@ header .textos-header{
     font-weight: 300;
     text-align: justify;
 
+}
+
+.cat {
+    height: 200px;
+    width: 100%;
+   }
+
+.image-card{
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+   display: block;
+
+}
+
+
+.Adornos {
+    background: hsla(330, 1%, 65%, 0.116);
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/*Galeria*/
+
+.portafolio{
+    background: #f2f2f2f2;
+
+}
+.galeria-port{
+    display: flex;
+    justify-content: space-evenly;
 }
