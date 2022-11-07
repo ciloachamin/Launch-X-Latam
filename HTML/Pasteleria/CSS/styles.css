@@ -257,13 +257,81 @@ header .textos-header{
     justify-content: space-evenly;
 }
 
-/*Galeria*/
+/*Footer*/
 
-.portafolio{
-    background: #f2f2f2f2;
+.footer{
+    background: #f9f9f9;
+    padding: 60px 0;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: auto;
+}
+
+
+.partFooter{
+    width: 25%;
+    text-align: center;
 
 }
-.galeria-port{
-    display: flex;
-    justify-content: space-evenly;
+
+.partFooter h4{
+    color: #1d273b;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 30px;
+
+}
+
+.partFooter a{
+    display: block;
+    text-decoration: none;
+    color: #5D6678;
+    font-weight: 300;
+    transition: color .3s ease-in-out;
+    margin-bottom: 10px;
+    
+}
+.partFooter img{
+    width: 70%;
+
+}
+
+.partFooter a:hover{
+    color: #010000
+}
+.social-media i{
+    font-size: 20px;
+    display: inline-block;
+    color: #0c0d0d;
+    border: 1px solid #909795;
+    border-radius: 50%;
+    width: 38px;
+    height: 38px;
+    line-height: 36px;
+    cursor: pointer;
+    margin-top: 20px;
+    text-align: center;
+    transition:all ease-in-out .3s ;
+    margin-right: 5px;
+}
+
+.social-media a{
+    display: inline-block;
+}
+
+.social-media i:hover{
+    color:  #0c0d0d;
+    background-color:  #27a7365d ;
+    border-color: #27a7365d;
+    
+
+}
+
+.derechos{
+    background-color: hsla(221, 13%, 42%, 0.244);
+    text-align: center;
+    font-weight: 700;
+    font-size: 10px;
 }
