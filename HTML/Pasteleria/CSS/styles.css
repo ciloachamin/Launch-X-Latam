@@ -379,10 +379,11 @@ header .textos-header{
 }
 
 
+
 .contact-form form button,
 .contact-form form input,
 .contact-form form textarea{
-    width: 100%;
+    width:100%;
     padding: .7em;
     border: none;
     background: none;
@@ -390,6 +391,8 @@ header .textos-header{
     outline: 0;
     color: #fff;
 }
+
+
 
 .contact-form form button{
     background: #1FDE82;
@@ -404,6 +407,7 @@ header .textos-header{
     background-color: #642a73;
     color: #fff;
 }
+
 
 
 .contact-info{
