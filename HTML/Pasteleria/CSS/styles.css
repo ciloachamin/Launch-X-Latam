@@ -11,7 +11,7 @@ body{
 
 .contenedor{
     width: 90%;
-    max-width:1000px;
+    max-width:1600px;
     margin: auto;
     overflow: hidden;
 }
@@ -177,7 +177,6 @@ header .textos-header{
     display: flex;
     justify-content: space-evenly;
 }
-
 .Pedidos {
     display: flex;
     justify-content: space-evenly;
@@ -257,12 +256,6 @@ header .textos-header{
 
 }
 
-
-.Adornos {
-    background: hsla(330, 1%, 65%, 0.116);
-    display: flex;
-    justify-content: space-evenly;
-}
 
 
 
@@ -348,13 +341,15 @@ header .textos-header{
 /*Pedidos*/
 
 .content{
-    background:#0c0d0d;
+    background:  #444243  ;
     color: #f9f9f9;
     font-family: 'open sans', Courier, monospace;
     padding: 2em 4em 4em;
 
 
 }
+
+
 
 .contact-wrapper{
     box-shadow: 0 0 20px 0 rgba(255,255,255,.3);
@@ -368,7 +363,7 @@ header .textos-header{
 }
 
 .contact-form{
-    background: #222222;
+    background:   #a6a4a515  ;
     max-width: 20px 20px;
 }
 
