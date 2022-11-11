@@ -20,4 +20,6 @@ Bonus:
 
 ***¡Vámonos hasta el espacio y más allá Explorers!***
 
-[Volver &ldca;](../../Launch-X-Latam/ "Regresar a página anterior")
+
+<a href="https://github.com/ciloachamin/Launch-X-Latam" target="_self">Regresar a pagina anterior</a>
+[Volver &ldca;](.. "Regresar a página anterior")
