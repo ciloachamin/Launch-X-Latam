@@ -22,4 +22,3 @@ Bonus:
 
 
 <a href="https://github.com/ciloachamin/Launch-X-Latam" target="_self">Regresar a pagina anterior</a>
-[Volver &ldca;](.. "Regresar a página anterior")

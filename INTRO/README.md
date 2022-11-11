@@ -23,4 +23,4 @@
 
 **_¡Vámonos hasta el espacio y más allá Explorers!_**
 
-[Volver &ldca;](.. "Regresar a página anterior")
+<a href="https://github.com/ciloachamin/Launch-X-Latam" target="_self">Regresar a pagina anterior</a>

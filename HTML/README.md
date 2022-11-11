@@ -34,4 +34,4 @@ En caso de que te quede corto el ejercicio siguele con esto!
 
 ***¡Vámonos hasta el espacio y más allá Explorers!***
 
-[Volver &ldca;](.. "Regresar a página anterior")
+<a href="https://github.com/ciloachamin/Launch-X-Latam" target="_self">Regresar a pagina anterior</a>
