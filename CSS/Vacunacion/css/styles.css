@@ -23,7 +23,7 @@ h1,h2,h3,h4,h5,h6{
     max-width: 1000px;
     margin: auto;
     overflow: hidden;
-    padding: 60px 0;
+    padding: 30px 0;
 }
 
 h1{
@@ -207,6 +207,27 @@ nav{
     color: #5D6678;
 
 }
+.texto-contact{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 2fr 1fr;
+
+}
+.texto-preparation {
+    display: grid;
+    grid-template-rows: 1fr 2fr;
+    grid-template-columns: 1fr;
+    text-align: right;
+}
+
+
+.texto-preparation p{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    text-align: right;
+}
+
+
 .articulo>h3{
     font-size: 24px;
     margin-top: 30px;
@@ -281,9 +302,9 @@ nav{
 }
 
 .partFooter h4{
-    color: #1d273b;
+    color: #2c426e;
     font-size: 20px;
-    font-weight: 400;
+    font-weight: 600;
     margin-bottom: 30px;
 
 }
@@ -332,6 +353,61 @@ nav{
     text-align: left;
     color: #5D6678;
     margin: 15px;
+}
+
+/*sfdsfsf*/
+.numbers{
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.numbers .number{
+    width: 45%;
+    background: rgba(255, 2555, 255, .2);
+    color: rgb(92, 76, 76);
+    border-radius: 10px;
+    padding: 40px 35px;
+    margin-bottom: 20px;
+}
+
+.numbers .number h4{
+    font-size: 20px;
+    color: rgb(93, 80, 80);
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.numbers .number p{
+    color: #7a7e88;
+    font-weight: 300;
+}
+.numbers a {
+    margin: 20px 0 0 0;
+    width: 130px;
+    display: inline-block;
+    background: rgba(134, 164, 240, 0.306);
+    text-align: center;
+    color:  rgba(0, 0, 255, 0.924);
+    padding: 12PX 0;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    border-radius: 5px;
+}
+.numbers a:hover {
+    margin: 20px 0 0 0;
+    width: 130px;
+    display: inline-block;
+    background: rgba(0, 0, 255, 0.924);
+    text-align: center;
+    color: #fff;
+    padding: 12PX 0;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    border-radius: 5px;
+    box-shadow: 0 8px 16px rgba(130, 165, 232, 0.46);
 }
 
 /**/
