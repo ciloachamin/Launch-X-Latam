@@ -20,4 +20,4 @@ Bonus:
 
 ***¡Vámonos hasta el espacio y más allá Explorers!***
 
-[Volver &ldca;](..\ "Regresar a página anterior")
+[Volver &ldca;](../ "Regresar a página anterior")
