@@ -51,7 +51,7 @@ nav{
     height: 80px;
     width: 100%;
     align-items: center;
-    padding: 0 40px;
+    padding: 0 65px;
 
 }
 
@@ -171,18 +171,6 @@ header .textos-header{
     transition: color .5s;
 
 }
-
-.Adornos {
-    background: hsla(330, 1%, 65%, 0.116);
-    display: flex;
-    justify-content: space-evenly;
-}
-.Pedidos {
-    display: flex;
-    justify-content: space-evenly;
-}
-
-
 
 
 .textos-header h1{
@@ -341,12 +329,10 @@ header .textos-header{
 /*Pedidos*/
 
 .content{
-    background:  #444243  ;
-    color: #f9f9f9;
+    background:#f3eff1  ;
+    color:  #444243  ;
     font-family: 'open sans', Courier, monospace;
     padding: 2em 4em 4em;
-
-
 }
 
 
@@ -363,7 +349,7 @@ header .textos-header{
 }
 
 .contact-form{
-    background:   #a6a4a515  ;
+    background:   #a6a4a515;
     max-width: 20px 20px;
 }
 
@@ -391,25 +377,25 @@ header .textos-header{
     padding: .7em;
     border: none;
     background: none;
-    border-bottom: 1px solid #d63031 ;
+    border-bottom: 1px solid  #a6a4a5b2;
     outline: 0;
-    color: #fff;
+    color: #140404;
 }
 
 
 
 .contact-form form button{
-    background: #1FDE82;
+    background:  #c4a8ab;
     border: 0;
+    color: #fff;
     text-transform: uppercase;
     padding: 1em;
 }
 
-
 .contact-form form button:hover,
 .contact-form form button:focus{
-    background-color: #642a73;
-    color: #fff;
+    background-color:   #b97579;
+    color: #140404;
 }
 
 
@@ -420,3 +406,57 @@ header .textos-header{
 
 
 /*INfo*/
+
+.content-info{
+    font-family: 'open sans', Courier, monospace;
+    padding: 2em 4em 4em;
+    display: flex;
+    justify-content:space-evenly;
+}
+
+.contenedor-info{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.titulo-info{
+    grid-row-start: 1;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    text-align: center;
+}
+
+.direc-info{
+    grid-row-start: 2;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    text-align: center;
+}
+.horario{
+    grid-row-start: 3;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    text-align: center;
+}
+.horas{
+    grid-row-start: 4;
+    grid-row-end: 8;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    text-align: left;
+}
+
+.tel-info{
+    grid-row-start: 9;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    text-align: center;
+}
+.phone{
+    grid-row-start: 10;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    display: flex;
+    justify-content: space-between;
+}
