@@ -32,6 +32,9 @@ En caso de que te quede corto el ejercicio siguele con esto!
 - Bonus de Rutas (Navegación en la página)
 - Bonus de despliegue (Montar la página en línea con dominio gratuito)
 
+***VER LANDING PAGES***
+<a href="https://ciloachamin.github.io/Pasteleria/" target="_blank">AQUI</a>
+
 ***¡Vámonos hasta el espacio y más allá Explorers!***
 
 <a href="https://github.com/ciloachamin/Launch-X-Latam" target="_self">Regresar a pagina anterior</a>
