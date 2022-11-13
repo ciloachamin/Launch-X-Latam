@@ -21,7 +21,7 @@ Bonus:
 ***¡Vámonos hasta el espacio y más allá Explorers!***
 
 
-***VER LANDINGPAGES AQUI **
-<a href="https://ciloachamin.github.io/vaccination/" target="_blank">Regresar a pagina anterior</a>
+***VER LANDINGPAGES***
+<a href="https://ciloachamin.github.io/vaccination/" target="_blank">AQUI</a>
 
 <a href="https://github.com/ciloachamin/Launch-X-Latam" target="_self">Regresar a pagina anterior</a>
