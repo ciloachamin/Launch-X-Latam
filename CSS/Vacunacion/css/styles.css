@@ -1,3 +1,4 @@
+/* Configuracion general--------------------------------------*/
 *{
     box-sizing: border-box;
     margin: 0;  
@@ -29,7 +30,8 @@ h1,h2,h3,h4,h5,h6{
 h1{
     font-size: 50px;
 }
-/* HEADER */
+
+/* HEADER---------------------------------------------*/
 header::before{
     content: "";
     display: block;
@@ -44,7 +46,6 @@ nav{
     position: fixed;
     top: 0;
     z-index: 100;
-
     /* transition: ease-in-out 0.5s; */
 }
 .nav{
@@ -54,7 +55,6 @@ nav{
     width: 100%;
     align-items: center;
     padding: 0 40px;
-
 }
 
 .nav .contenedor-logo{
@@ -96,14 +96,11 @@ nav{
     font-size: 14px;
     border-radius: 5px;
     box-shadow: 0 8px 32px rgba(31, 222,130,.46) ;
-
-
 }
 
 .contenido-header > img{
     width: 400px;
     animation: ease-in animat 1s ;
-
 }
 .cat {
     height: 500px;
@@ -119,7 +116,7 @@ nav{
 .verification{
     display: flex;
     justify-content: space-around;
-    margin: 20px 0 0 10px;
+    margin: 20px;
 }
 
 .verification i{
@@ -127,7 +124,6 @@ nav{
 }
 
 .contenido-header a{ 
-    margin: 20px 0 0 0;
     width: 130px;
     display: inline-block;
     background: rgba(0, 0, 255, 0.924);
@@ -138,10 +134,25 @@ nav{
     text-transform: uppercase;
     font-size: 14px;
     border-radius: 5px;
-    box-shadow: 0 8px 32px rgba(31, 222,130,.46) ;
-
+    box-shadow: 0 8px 12px rgba(31, 149, 222, 0.571) ;
+}
+/*Flotante*/
+.flotante{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(17, 29, 48,.26);
+}
+.flotante p{
+    text-align: center;
 
 }
+
+
+
+/*Main contenedor de marcas */
+
 .content-marcas {
     height: 150px;
     width:100%;
@@ -160,18 +171,14 @@ nav{
     opacity: 0.2;
 }
 
-/* Aaaaaaaaaaaaaaaaa*/
-
-
+/* contenedor de informacion */
 
 .contenedor-articulo{
     display: flex;
     flex-wrap: wrap;
     margin-top: 60px;
     justify-content: space-around;
-
 }
-
 
 .articulo{
     width: 29%;
@@ -198,7 +205,7 @@ nav{
 }
 .contenedor1>h2{
     font-size: 40px;
-    margin-top: 20px;
+    margin-top: 10px;
 
 }
 .contenedor1>p{
@@ -215,16 +222,33 @@ nav{
 }
 .texto-preparation {
     display: grid;
-    grid-template-rows: 1fr 2fr;
-    grid-template-columns: 1fr;
+    grid-template-rows: 0.6fr 1fr;
+    grid-template-columns: 1fr 2fr;
     text-align: right;
+    width: 90%;
+    max-width: 1000px;
 }
 
+.texto-preparation>p{
+    font-size: 24px;
+    color: #5D6678;
+}
 
-.texto-preparation p{
-    display: grid;
-    grid-template-columns: 2fr 2fr;
-    text-align: right;
+.texto-preparation>h2{
+    font-size: 40px;
+
+}
+.contenedor1>p {
+    font-size: 24px;
+    margin-top: 20px;
+    color: #5D6678;
+}
+
+.item1{
+    grid-column-start: 2;
+}
+.item2{
+    grid-column-start: 2;
 }
 
 
@@ -249,28 +273,25 @@ nav{
 
 }
 .articulo:hover{
-    color: #1FDE82;
+    color: #1f88de;
     transition: color .5s;
 
 }
-
-
 
 .services{
     display: flex;
     justify-content: space-between;
 }
 
-/*bbbbbbbbbbbb*/
 .services>img{
     width: 500px;
+    height: 400px;
 }
-
 .box-skilles{
     margin: 30px 30px 0 0;
 }
 
-.box-skilles h4{
+.caja-flex{
     font-size: 24px;
     background: #f2f2f2;
     width: 350px;
@@ -278,12 +299,20 @@ nav{
     padding: 10px 0 10px 15px;
     margin-bottom: 10px;
 }
+.caja-flex p{
+    display: none;
+}
 .box-skilles i{
-    color: #1FDE82;
+    color: #1f88de;
     font-size: 20px;
 }
 
-/*aaa*/
+.caja-flex:hover > p{
+    display: block;
+}
+
+
+/*Pie de pagina*/
 .footer{
     background: #f2f2f2;
     padding: 60px 0;
@@ -324,7 +353,7 @@ nav{
 }
 
 .partFooter a:hover{
-    color: #1FDE82
+    color: #1faede
 }
 .social-media i{
     font-size: 20px;
@@ -355,7 +384,20 @@ nav{
     margin: 15px;
 }
 
-/*sfdsfsf*/
+
+/*Contenedor de Contactos*/
+
+.numbers i {
+    font-size: 25px;
+    color: #1f5fdee0;
+    background: #81a0de1a;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    padding-top: 10px;
+    text-align: center;
+}
+
 .numbers{
     width: 60%;
     display: flex;
@@ -410,7 +452,7 @@ nav{
     box-shadow: 0 8px 16px rgba(130, 165, 232, 0.46);
 }
 
-/**/
+/*Derechos y copyRigth*/
 .derechos {
     background: #f2f2f2;
     display: grid;
