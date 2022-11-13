@@ -330,45 +330,49 @@ header .textos-header{
 }
 
 /*Pedidos*/
+.container {
+    border: solid 1px rgba(255, 255, 255, 0.2);
+    display: flex;
+    justify-content: center;
+}
 
-.content{
-    background:#f3eff1  ;
-    color:  #444243  ;
-    font-family: 'open sans', Courier, monospace;
-    padding: 2em 4em 4em;
+table {
+    color:#444243;
+    font-size: 14px;
+    table-layout: fixed;
+    border-collapse: collapse;
+}
+
+thead {
+    background: rgba(243, 140, 210, 0.4);
+}
+
+th {
+    padding: 20px 15px ;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+td {
+    padding: 15px;
+    border-bottom: solid 1px rgba(255, 255, 255, 0.2);
+}
+
+
+tbody tr {
+    cursor: pointer;
+}
+
+tbody tr:hover {
+    background: rgba(243, 103, 199, 0.4);
 }
 
 
 
-.contact-wrapper{
-    box-shadow: 0 0 20px 0 rgba(255,255,255,.3);
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-}
-
-.contact-wrapper .contact-form{
-    padding:2em;
-
-}
 
 .contact-form{
     background:   #a6a4a515;
     max-width: 20px 20px;
-}
-
-.contact-form form{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-}
-
-.contact-form form .block{
-    grid-column: 1/3;
-}
-
-
-.contact-form form p{
-    margin: 0;
-    padding: 1em;
 }
 
 
