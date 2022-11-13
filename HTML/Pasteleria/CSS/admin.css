@@ -27,7 +27,7 @@ header{
     height: 600px;
     background: #ee9ca7;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, hsla(352, 100%, 94%, 0.901), hsla(352, 71%, 77%, 0.56)), url(/assert/img/hero.webp);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, hsla(352, 100%, 94%, 0.397), hsla(351, 16%, 59%, 0.635)), url(/assert/img/hero.webp); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, hsla(352, 100%, 94%, 0.397), hsla(0, 0%, 0%, 0.635)), url(/assert/img/ingredients.png); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     background-size: cover;
     background-attachment:fixed;
     position: relative;
@@ -81,9 +81,14 @@ nav{
 }
 
 .hamburguer > a{
+    text-decoration: none;
     font-size: 25px;
     line-height: 80px;
     color: rgb(26, 22, 22);
+}
+
+.hamburguer > a:hover{
+    text-decoration: underline;
 }
 
 .enlaces-header>a:hover {
@@ -155,9 +160,7 @@ header .textos-header{
 .articulo>p{
     font-weight: 100;
     color: #5D6678;
-    margin-top: 15px;
-    padding-bottom: 20px;
-
+    margin-top: 10px;
 }
 
 .articulo>a{
