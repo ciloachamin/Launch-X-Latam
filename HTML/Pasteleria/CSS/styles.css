@@ -26,8 +26,8 @@ header{
     width: 100%;
     height: 600px;
     background: #ee9ca7;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, hsla(352, 100%, 94%, 0.901), hsla(352, 71%, 77%, 0.56)), url(assert/img/hero.webp);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, hsla(352, 100%, 94%, 0.397), hsla(351, 16%, 59%, 0.635)), url(assert/img/hero.webp); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: -webkit-linear-gradient(to right, hsla(352, 100%, 94%, 0.901), hsla(352, 71%, 77%, 0.56)), url(../assert/img/hero.webp);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, hsla(352, 100%, 94%, 0.397), hsla(351, 16%, 59%, 0.635)), url(../assert/img/hero.webp); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     background-size: cover;
     background-attachment:fixed;
     position: relative;
