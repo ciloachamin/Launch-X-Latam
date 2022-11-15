@@ -17,8 +17,9 @@ ustedes seguirán con ese proyecto para tener cada quien el suyo con las siguien
     - Movimientos
 
 -Una imágen de un pokedex, pero pueden volar su creatividad a como gusten.
-<img src="../images/pokedex.jpg" alt="SDLC" height="600px">
+<img src="Pokedex/asserts/img/Pokedex.jpg" alt="SDLC" height="600px">
 
+<img src="/" alt="SDLC" height="600px">
 Bonus:
 - Bonus si tu página es responsive y se puede ver en celulares
 - Bonus de despliegue de tu pokedex
@@ -28,5 +29,4 @@ Pueden usar los conocimientos vistos o usar diferentes herramientas que conozcan
 
 
 ***¡Vámonos hasta el espacio y más allá Explorers!***
-
 <a href="https://github.com/ciloachamin/Launch-X-Latam" target="_self">Regresar a pagina anterior</a>
