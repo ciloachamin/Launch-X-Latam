@@ -19,7 +19,6 @@ ustedes seguirán con ese proyecto para tener cada quien el suyo con las siguien
 -Una imágen de un pokedex, pero pueden volar su creatividad a como gusten.
 <img src="Pokedex/asserts/img/Pokedex.jpg" alt="SDLC" height="600px">
 
-<img src="/" alt="SDLC" height="600px">
 Bonus:
 - Bonus si tu página es responsive y se puede ver en celulares
 - Bonus de despliegue de tu pokedex
