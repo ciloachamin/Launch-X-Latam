@@ -1,0 +1,24 @@
+.pokedex{
+    display: flex;
+
+
+}
+
+.pokeball{
+    height: 300px;
+    width: 300px;
+    background-color: brown;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+img{
+padding: 5px;
+background-color: aliceblue;
+}
+
+.contorno{
+    padding: 101|px;
+    background-color: black;
+}
