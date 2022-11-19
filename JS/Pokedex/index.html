@@ -12,16 +12,33 @@
     <h1>Pokedex LaunchX</h1>
     <section class="pokedex">
         <div class="pokeball">
+            <div class="circulo"></div>
             <div class="contorno">
-                <img src="asserts/img/pokeball.png" alt="Pokemon" id="pokeImg" width="150px">
+                <div class="img-pokedex">
+                    <img src="asserts/img/pokeball.png" alt="Pokemon" id="pokeImg">
+                </div>
             </div>
+            <div class="circulo-negro"></div>
+            <div class="pokemon-name" id="names" ></div>
+            <div class="pokemon-id" id="idNames" ></div>
+            <div class="cuadro-verde"></div>
+            <div class="cuadro-cruz-1 cuadro-cruz"></div>
+            <div class="cuadro-cruz-2 cuadro-cruz"></div>
         </div>
     
-        <div class="img-pokedex">
-            <input type="text" placeholder="pikachu" id="pokeName" name="pokeName">
-            <button onclick="fetchPokemon()">Cambiar Imágen</button>
-            <div class="pokeScreen" id="abilities">
-    
+        <div class="contenedor-info">
+            <div class="pokedex-info">
+                <div class="info">
+                    <div class="pokeScreen"> <h2 class="habilidades"
+                        id="abilities"></h2></div>
+                    <div class="button-azul"></div>
+                    <input type="text" class="ingreso" placeholder="pikachu" id="pokeName" name="pokeName">
+                    <button onclick="fetchPokemon()">Buscar</button> 
+                    <div class="atributos">
+                        <div class="contenedor-peso" id="peso"></div>
+                        <div class="contenedor-altura" id="altura"></div>
+                    </div>
+                </div>
             </div>
         </div>
     
