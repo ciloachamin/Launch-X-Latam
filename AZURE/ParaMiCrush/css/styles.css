@@ -3,24 +3,37 @@ button:hover {
 } 
 
 h1 {
-    color: blueviolet;
+    color: rgb(0, 0, 0);
 }
 
-.modo_sexo  {
-    height: 2000px;
-    position: absolute;
-    display: none;
-    width: 100%;
-    background-color: red;
-    z-index: 1000;
+#btn_si,
+#btn_no{
+    top:50%;
+    background-color:#ac2020;
+    font-size: 30px;
+    color: #fff;
+    border:none; 
+    border-radius:10px; 
+    padding:15px;
+    min-height:30px; 
+    min-width: 120px;
 }
 
-#btn_si {
-    background-color: cadetblue;
-    border-color: cadetblue;
-    color: azure;
-    font-size: xx-large;
-    padding: 32px;
+
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+video{
+    width: 60%;
+    box-shadow: rgb(233, 46, 13) 16px 16px 100px;
+    border-radius: 3rem;
+    margin: 100px 70px;
+}
+
+.info{
     text-align: center;
-    border-radius: 2px;
 }

@@ -1,0 +1,24 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+    background-color: ;
+}
+
+
+
+.modo_sin_respeto {
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    
+
+}
+
+#playVideo{
+    height: 500px;
+    box-shadow: rgb(233, 46, 13) 16px 16px 100px;
+}
