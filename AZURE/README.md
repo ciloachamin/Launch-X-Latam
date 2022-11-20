@@ -15,7 +15,7 @@ Para ello se debera crear la aplicacion **Para Mi Crush**
 Pueden usar los conocimientos vistos o usar diferentes herramientas que conozcan o que investiguen como las librerías de diseño o librerías de JS sin problemas.
 
 ***VER LANDING PAGES***
-<a href="https://pokee.azurewebsites.net/" target="_blank">AQUI</a>
+<a href="https://paramicrush.azurewebsites.net/" target="_blank">AQUI</a>
 
 ***¡Vámonos hasta el espacio y más allá Explorers!***
 <a href="https://github.com/ciloachamin/Launch-X-Latam" target="_self">Regresar a pagina anterior</a>
