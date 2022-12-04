@@ -1,0 +1,89 @@
+html{
+  background: #ddd;
+  height: 100%;
+  display: flex;
+}
+
+body{
+  width: 100;
+  margin: auto;
+
+}
+
+.App{
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.todo-list{
+  background: #fff;
+  font-size: 18px;
+  max-width: 300px;
+  margin: auto;
+  margin-bottom: 24px;
+  padding:  8px 16px;
+  box-shadow: 0 5px 30px rgba(0,0,0,0.2);
+}
+
+
+
+
+
+$colorRosa:  #113a91;
+$colorHover:  #4b8bf2;
+
+@mixin button ($class, $color,$colorHover){
+  .button.#{$class}{background: $color;}
+  .button.#{$class}:hover{background: $colorHover;}
+  .button.#{$class}:active{background: $color;}
+}
+
+@include button('pink',$colorRosa,$colorHover);
+
+
+.file-input{
+  padding: 2px;
+  background: #f8f8f8;
+}
+
+.file-input>.text{
+  outline: none;
+  padding: 0px 10px;
+  font-size: 18px;
+  width: 230px;
+  height: 43;
+  background: transparent;
+  border: 0px solid;
+}
+//https://coolors.co/
+
+$duracion: 0.4s;
+$stroke: #0077b6 ;
+$colorText:#90e0ef ;
+$colorTextChecked: #03071e ;
+
+
+.todo{
+  display: block;
+  position: relative;
+  padding: 1em 1em 1em 16%;
+  margin: 0 auto;
+  cursor: pointer;
+  border-bottom: solid 1px #ddd;
+  &:last-child{border-bottom:none;}
+}
+
+.todo.new-item{
+  opacity: 0;
+  transform: translateX(100px);
+  animation: fadeIn .3s linear forwards;
+}
+
+
+@keyframes fadeIn {
+  to{
+    transform: translateX(0px);
+    opacity: 1;
+  }
+  
+}
