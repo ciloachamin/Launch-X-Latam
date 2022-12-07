@@ -22,15 +22,16 @@ ustedes seguirán con ese proyecto para tener cada quien el suyo con las siguien
 Uno de los primeros ejercicios de todo curso de programación es hacer una calculadora ya que te permite aprender. 
 Para esta tarea debes hacer una calculadora con las siguientes operaciones:
 
-    - Suma 
-    - Resta 
-    - Multiplicación 
-    - División 
-    - Raiz cuiadrada 
-    - Potencia al número qe el usuario te diga 
-    - Residuo de una división 
+- Suma 
+- Resta 
+- Multiplicación 
+- División 
+- Raiz cuiadrada 
+- Potencia al número qe el usuario te diga 
+- Residuo de una división 
 
 -Una imágen de la calculadora terminada.
+
 <img src="Calculadora/asserts/img/Calculadora.jpg" alt="SDLC" height="600px">
 
 Bonus:
