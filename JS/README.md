@@ -47,7 +47,7 @@ Pokedex
 <a href="https://pokee.azurewebsites.net/" target="_blank">AQUI</a>
 
 Calculadora
-<a href="https://pokee.azurewebsites.net/" target="_blank">AQUI</a>
+<a href="https://ciloachamin.github.io/CalculadoraJS/" target="_blank">AQUI</a>
 
 
 ***¡Vámonos hasta el espacio y más allá Explorers!***
