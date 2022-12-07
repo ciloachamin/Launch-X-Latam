@@ -20,17 +20,18 @@ ustedes seguirán con ese proyecto para tener cada quien el suyo con las siguien
 <img src="Pokedex/asserts/img/Pokedex.jpg" alt="SDLC" height="600px">
 
 Uno de los primeros ejercicios de todo curso de programación es hacer una calculadora ya que te permite aprender. 
-Para esta tarea debes hacer una calculadora con las siguientes operaciones: 
-    • Suma 
-    • Resta 
-    • Multiplicación 
-    • División 
-    • Raiz cuiadrada 
-    • Potencia al número qe el usuario te diga 
-    • Residuo de una división 
+Para esta tarea debes hacer una calculadora con las siguientes operaciones:
+
+    - Suma 
+    - Resta 
+    - Multiplicación 
+    - División 
+    - Raiz cuiadrada 
+    - Potencia al número qe el usuario te diga 
+    - Residuo de una división 
 
 -Una imágen de la calculadora terminada.
-<img src="Calculadora/asserts/img/Calculadora.jpg" alt="SDLC" height="600px
+<img src="Calculadora/asserts/img/Calculadora.jpg" alt="SDLC" height="600px">
 
 Bonus:
 - Bonus si tu página es responsive y se puede ver en celulares
@@ -46,7 +47,6 @@ Pokedex
 Calculadora
 <a href="https://pokee.azurewebsites.net/" target="_blank">AQUI</a>
 
-    ">
 
 ***¡Vámonos hasta el espacio y más allá Explorers!***
 <a href="https://github.com/ciloachamin/Launch-X-Latam" target="_self">Regresar a pagina anterior</a>
