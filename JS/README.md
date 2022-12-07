@@ -42,6 +42,7 @@ Bonus:
 Pueden usar los conocimientos vistos o usar diferentes herramientas que conozcan o que investiguen como las librerías de diseño o librerías de JS sin problemas.
 
 ***VER LANDING PAGES***
+
 Pokedex
 <a href="https://pokee.azurewebsites.net/" target="_blank">AQUI</a>
 
