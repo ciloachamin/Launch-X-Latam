@@ -1,0 +1,22 @@
+# Archivos generados por npm
+node_modules/
+
+.vscode
+
+# Archivos generados por yarn
+yarn-error.log
+.pnp/
+
+# Directorios y archivos de configuración local
+.env
+.env.*
+.cache
+
+# Directorios generados por el CLI de create-react-app
+.idea/
+build/
+dist/
+
+# Archivos generados por TypeScript
+*.tsbuildinfo
+*.map
