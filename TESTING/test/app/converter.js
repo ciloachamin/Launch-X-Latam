@@ -1,8 +1,11 @@
+// test unitarios 
+
 exports.rgbToHex=function(red, green,blue){
     let redHex= red.toString(16);
     let greenHex= green.toString(16);
     let blueHex= blue.toString(16);
     return transform(redHex)+transform(greenHex)+transform(blueHex);
+    // return transform(redHex)+transform(greenHex)+transform(blueHex) +fafmaksmfks; pruba fallida
 }
 
 
@@ -17,9 +20,9 @@ exports.hexToRgb= function(hex){
     let blue = parseInt(hex.substring(4,6),16);
 
     return [red,green, blue];
+    // return [red,1, 1]; prueba fallida
 
 }
-
 
 // const calcular=(A,B)=>{
 //     console.log("Calculando...");
