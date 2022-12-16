@@ -43,10 +43,13 @@ Pueden usar los conocimientos vistos o usar diferentes herramientas que conozcan
 
 ***VER LANDING PAGES***
 
-Pokedex
+*Pokedex :*
+En azure:
 <a href="https://pokee.azurewebsites.net/" target="_blank">AQUI</a>
+En github pages: 
+<a href="https://ciloachamin.github.io/Pokedex/" target="_blank">AQUI</a>
 
-Calculadora
+*Calculadora*
 <a href="https://ciloachamin.github.io/CalculadoraJS/" target="_blank">AQUI</a>
 
 
