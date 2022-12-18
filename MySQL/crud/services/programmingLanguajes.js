@@ -37,7 +37,6 @@ async function read(page=1){
 
 async function update(id,programmingLanguajes){
     const resultado=await db.query(`UPDATE alumno SET dni="${programmingLanguajes.dni}" WHERE cod_estudiante="${id}"`);
-    console.log(resultado)
     
     let message="Error al actualizar alumnos";
     if(resultado.affectedRows){

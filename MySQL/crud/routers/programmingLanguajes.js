@@ -22,7 +22,7 @@ router.post('/', async function(req,res,next){
 });
 
 router.put('/', async function(req,res,next){
-    console.log(req.body.id);
+    console.log(req.params.id)
     try {
         res.json(await programmingLanguajes.update(req.params.id, req.body))
     } catch (error) {
