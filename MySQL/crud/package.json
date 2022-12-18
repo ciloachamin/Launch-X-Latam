@@ -1,0 +1,19 @@
+{
+  "name": "lenguajes-programacion-api",
+  "version": "1.0.0",
+  "description": "API lenguajes de progrmacion",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ciloachamin",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.3.3"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.3"
+  }
+}
