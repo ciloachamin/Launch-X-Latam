@@ -16,6 +16,7 @@ class TaskList{
                 name:"@completed",
                 vale: false
             }
+            
         }
         const items= await this.taskObjeto.find(querySpec);
             res.render("index",{

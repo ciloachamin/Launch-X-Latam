@@ -1,4 +1,4 @@
-const { init } = require('../app');
+//const {init} = require('../app');
 
 const CosmosClient =require('@azure/cosmos').CosmosClient;
 const debug =require('debug')('todo-cosmos:task');
@@ -23,13 +23,13 @@ class Task{
 
     }
     async init(){
-        debug("inicializando base de datos")
+        debug("inicializando BD")
         const dbResponse=await this.client.databases.createIfNotExists({
             id: this.databaseID
         });
         this.database=dbResponse.database;
-        debug("inicializando contenedor")
-        const contenResponse=await this.database.containe.createIfNotExists({
+        debug("inicializando contenedor...")
+        const contenResponse=await this.database.containers.createIfNotExists({
             id:this.containerID
         });
         this.container=contenResponse.container;
@@ -45,7 +45,8 @@ class Task{
             throw new Error("Contenedor no se ha iniciado")
         }
 
-        const {resources}=await this.container.items.query(querySpec).fetchALl();
+        const {resources}=await this.container.items.query(querySpec).fetchAll();
+        console.log(resources)
         return resources;
     }
 
@@ -67,7 +68,7 @@ class Task{
         const doc = await this.getItem(itemId);
         doc.completed=true;
 
-        const {resource:replaced }= await this.container.item(itemID,partitionKey).replaced(doc);
+        const {resource :replaced }= await this.container.item(itemID,partitionKey).replaced(doc);
     }
     /**
      * 
