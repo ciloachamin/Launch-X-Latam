@@ -19,7 +19,7 @@ block content
           tr
             td #{task.name}
             td #{task.category}
-            - var date = new Date(task.date);
+            - var date = new Date();
             - var day= date.getDate();
             - var month= date.getMonth()+1;
             - var year= date.getFullYear();
@@ -33,9 +33,9 @@ block content
   hr
   form.well(action="/agregar",method="post")
       label Item Name: 
-      input(name="name",type="text")
+      input(name="name",type="textbox")
       label Item Category: 
-      input(name="category",type="text") 
+      input(name="category",type="textbox") 
       br
       button.btn(type="submit") Añadir tarea
               

@@ -3,7 +3,8 @@
 const CosmosClient =require('@azure/cosmos').CosmosClient;
 const debug =require('debug')('todo-cosmos:task');
 
-let partitionKey = undefined;
+//let partitionKey = false;
+//const partitionKey= ["/completed"]
 
 //Este es el modelo de datos
 class Task{
@@ -46,7 +47,6 @@ class Task{
         }
 
         const {resources}=await this.container.items.query(querySpec).fetchAll();
-        console.log(resources)
         return resources;
     }
 
@@ -65,10 +65,13 @@ class Task{
     }
     async updateItem(itemID){
         debug("Actualizando Item");
-        const doc = await this.getItem(itemId);
+        //console.log("Item ID  "+itemID)
+        const doc = await this.getItem(itemID);
+        console.log("<DOC"+doc)
         doc.completed=true;
 
-        const {resource :replaced }= await this.container.item(itemID,partitionKey).replaced(doc);
+        const {resource: replaced }= await this.container.item(itemID,partitionKey).replaced(doc);
+        return replaced;
     }
     /**
      * 
@@ -76,8 +79,10 @@ class Task{
      * @returns 
      */
     async getItem(itemID){
+        //console.log("Item ID  "+itemID)
         debug("Buscando ITEM en la DB");
-        const {resources }= await this.container.item(itemID,partitionKey);
+        const {resources}= await this.container.item(itemID,partitionKey);
+        console.log("resource  "+resources);
         return resources;
     }
 }

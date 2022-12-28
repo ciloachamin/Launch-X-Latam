@@ -16,7 +16,6 @@ const app=express();
 app.set('views',path.join(__dirname,'views'));
 app.set('view engine','jade');
 
-
 app.use(logger('dev'));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended:false}))
@@ -49,7 +48,7 @@ app.get('/',(req,res,next)=>tasklist.showTask(req,res).catch(next));
 app.post('/agregar',(req,res,next)=>tasklist.addTask(req,res).catch(next));
 
 app.post('/completar',(req,res,next)=>tasklist.completeTask(req,res).catch(next));
-//app.set('view engine','jade');
+app.set('view engine','jade');
 
 //manejar un 404
 

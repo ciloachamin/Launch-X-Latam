@@ -14,15 +14,15 @@ class TaskList{
             query:"SELECT * FROM root r WHERE r.completed=@completed",
             parameter:{
                 name:"@completed",
-                vale: false
+                value: false
             }
             
         }
         const items= await this.taskObjeto.find(querySpec);
-            res.render("index",{
+        res.render("index",{
                 title:"Mi lista de pendientes",
                 tasks: items
-            });
+        });
     }
 
     async addTask(req,res){
