@@ -7,6 +7,7 @@ export async function suma(a:number, b:number) {
     return a+b;
 }
 
+
 ;(async()=>{
     console.log(await suma(3,4))
 })()
